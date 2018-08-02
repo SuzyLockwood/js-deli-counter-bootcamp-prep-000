@@ -30,12 +30,3 @@ function takeANumber(line, name){
   
   return "Welcome, " + name + ". You are number " + line.length + " in line."
 }
-takeANumber(katzDeli, "Ada")
-takeANumber(katzDeli, "Grace")
-takeANumber(katzDeli, "Kent")
-currentLine(katzDeli);
-nowServing(katzDeli);
-takeANumber(katzDeli, "Matz"); 
-currentLine(katzDeli); 
-nowServing(katzDeli);
-currentLine(katzDeli)
